@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { ColorRing } from "react-loader-spinner";
 
-export default function WeatherSearch() {
+export default function Weather() {
   const [city, setCity] = useState("");
   const [loaded, setLoaded] = useState(false);
   const [weather, setWeather] = useState({});
