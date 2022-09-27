@@ -29,7 +29,10 @@ export default function Weather() {
           <div className="col-6">
             <h1>New York</h1>
             <ul>
-              <li>Saturday 16:53, clear sky Humidity: 40%, Wind: 3.13km/h</li>
+              <li>Saturday 16:53, clear sky </li>
+              <li>
+                Humidity: <strong>40%</strong>, Wind: <strong>3.13km/h</strong>
+              </li>
             </ul>
           </div>
           <div className="col-6">
