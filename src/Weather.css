@@ -1,4 +1,5 @@
 .Weather {
+  background: #fff;
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
@@ -71,4 +72,16 @@
 }
 .Weather canvas {
   margin: 10px 0;
+}
+
+.WeatherTemperature a {
+  text-decoration: none;
+  color: #212121;
+}
+.Weather .unit {
+  margin-left: 10px;
+  color: #212121;
+  font-size: 20px;
+  position: relative;
+  bottom: 34px;
 }
