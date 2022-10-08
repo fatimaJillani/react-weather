@@ -1,6 +1,9 @@
 .DaysForecast {
   text-align: center;
-  margin-top: 55px;
+  border-bottom: 1px solid #f9f7fe;
+  margin: 40px 0;
+  padding-bottom: 50px;
+  padding-top: 25px;
 }
 .DaysForecast .min-temp {
   opacity: 0.6;

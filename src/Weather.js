@@ -40,7 +40,7 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         <form onSubmit={handleSubmit}>
-          <div className="row">
+          <div className="row pt-5">
             <div className="col-9">
               <input
                 type="search"
@@ -61,6 +61,16 @@ export default function Weather(props) {
         </form>
         <WeatherInfo data={weatherData} />
         <DaysForecast coordinates={weatherData.coordinates} />
+        <footer>
+          This project was coded by Fatima Jillani and is{" "}
+          <a href="https://github.com/fatimaJillani/react-weather">
+            open-source on GitHub,
+          </a>{" "}
+          and{" "}
+          <a href="https://ubiquitous-druid-7af11e.netlify.app/">
+            hosted on Netlify
+          </a>
+        </footer>
       </div>
     );
   } else {

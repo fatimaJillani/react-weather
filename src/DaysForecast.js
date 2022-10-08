@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./DaysForecast.css";
 import axios from "axios";
 import DayForecast from "./DayForecast";
@@ -26,6 +26,8 @@ export default function DaysForecast(props) {
                   <DayForecast data={dailyForecast} />
                 </div>
               );
+            } else {
+              return null;
             }
           })}
         </div>
