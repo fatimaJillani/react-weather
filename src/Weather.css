@@ -96,6 +96,9 @@
   .Weather {
     padding: 30px;
   }
+  .Weather form {
+    margin-top: 0;
+  }
   .Weather h1 {
     font-size: 24px;
   }
