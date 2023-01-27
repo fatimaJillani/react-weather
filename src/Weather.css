@@ -100,7 +100,7 @@
     margin-top: 0;
   }
   .Weather h1 {
-    font-size: 24px;
+    font-size: 26px;
   }
   .Weather li {
     font-size: 13px;
@@ -108,12 +108,16 @@
   .Weather .temp {
     font-weight: 350;
     font-size: 45px;
+    margin-left: 0;
     position: relative;
     bottom: 10px;
   }
-  .Weather canvas {
+  .WeatherInfo canvas {
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
+    right: 5px;
+    width: 45px;
+    height: 45px;
   }
   .Weather .unit {
     font-size: 12px;
