@@ -1,4 +1,61 @@
-# Getting Started with Create React App
+# React Weather App
+
+## Overview
+The React Weather App is a web application designed to display current weather data for any location, offering features such as Fahrenheit and Celsius temperature conversion, as well as a 5-day weather forecast.
+
+## Features Implemented
+1. **Current Weather Data:** View real-time weather information for a specified location.
+2. **Temperature Conversion:** Toggle between Fahrenheit and Celsius temperature units.
+3. **5-Day Weather Forecast:** Access a detailed forecast for the next 5 days.
+
+## Technologies Used
+- React
+- [OpenWeatherMap API](https://openweathermap.org/) for weather data
+
+## Setup / Getting Started
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/fatimaJillani/WeatherApp
+   ```
+
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd react-weather-app
+   ```
+
+3. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Run the Application:**
+   ```bash
+   npm start
+   ```
+
+   This will start the development server, and you can view the app by navigating to [http://localhost:3000](http://localhost:3000) in your web browser.
+
+## Usage
+1. **Enter Location:**
+   - Type the desired location to fetch the current weather and forecast.
+
+2. **Temperature Unit Conversion:**
+   - Toggle between Fahrenheit and Celsius to view temperature in your preferred unit.
+
+3. **5-Day Forecast:**
+   - Explore the detailed weather forecast for the next 5 days.
+
+## Contributors
+- [Fatima Jillani](https://github.com/fatimaJillani)
+
+## License
+This project is not licensed. Feel free to use, modify, and distribute as per the terms of the license.
+
+
+
+
+
+#Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
